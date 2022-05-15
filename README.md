@@ -83,6 +83,12 @@ Built files are at /home/cogroid/local/libiconv/i386
 
 ### Build for armv7 machine
 
+Set APP_PKG to package name of your android app.
+
+```
+export APP_PKG=com.cogroid.atomspace.tester
+```
+
 ```
 sudo apt update
 cd ${ICONV_DIR}/make/armv7
